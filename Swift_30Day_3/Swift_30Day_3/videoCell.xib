@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="videoCell" customModule="Swift_30Day_3" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="387" height="169"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UTD-iq-H7y">
+                    <rect key="frame" x="0.0" y="0.0" width="387" height="169"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9z-3C-4Su">
+                    <rect key="frame" x="118.5" y="34.5" width="150" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="6qD-Bx-xkJ"/>
+                        <constraint firstAttribute="width" constant="150" id="ayd-Ok-95x"/>
+                    </constraints>
+                    <state key="normal" image="playBtn"/>
+                    <connections>
+                        <action selector="playButtonDidClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Y1k-8P-bDQ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PTj-gV-gtJ">
+                    <rect key="frame" x="170" y="130" width="47.5" height="24"/>
+                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="22"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="UTD-iq-H7y" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="APK-7t-DIO"/>
+                <constraint firstItem="UTD-iq-H7y" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="EEs-kI-Jy5"/>
+                <constraint firstItem="I9z-3C-4Su" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="Gjo-cp-ohU"/>
+                <constraint firstItem="I9z-3C-4Su" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="Qct-KW-9iE"/>
+                <constraint firstItem="I9z-3C-4Su" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="Tl0-lh-x7S"/>
+                <constraint firstItem="PTj-gV-gtJ" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="cI8-22-U7A"/>
+                <constraint firstItem="UTD-iq-H7y" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="lJY-5P-dBJ"/>
+                <constraint firstItem="UTD-iq-H7y" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="vEw-Li-LWi"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="PTj-gV-gtJ" secondAttribute="bottom" constant="15" id="wsV-7M-vUG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="backgroundImageView" destination="UTD-iq-H7y" id="kuC-7I-41n"/>
+                <outlet property="titleLable" destination="PTj-gV-gtJ" id="lbt-h7-rWG"/>
+            </connections>
+            <point key="canvasLocation" x="-12" y="18"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="playBtn" width="60" height="60"/>
+    </resources>
+</document>
