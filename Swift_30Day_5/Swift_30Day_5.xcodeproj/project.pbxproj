@@ -13,6 +13,7 @@
 		2D5A411A2240C6AC00571118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A41192240C6AC00571118 /* Assets.xcassets */; };
 		2D5A411D2240C6AC00571118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A411B2240C6AC00571118 /* LaunchScreen.storyboard */; };
 		2D9C8B4D2302AAAB006E2573 /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9C8B4C2302AAAB006E2573 /* Interest.swift */; };
+		2DBB914B2305393700D8B676 /* InterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB914A2305393700D8B676 /* InterestCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2D5A411C2240C6AC00571118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D5A411E2240C6AC00571118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D9C8B4C2302AAAB006E2573 /* Interest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
+		2DBB914A2305393700D8B676 /* InterestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2D5A41122240C6AB00571118 /* AppDelegate.swift */,
 				2D5A41142240C6AB00571118 /* ViewController.swift */,
 				2D9C8B4C2302AAAB006E2573 /* Interest.swift */,
+				2DBB914A2305393700D8B676 /* InterestCollectionViewCell.swift */,
 				2D5A41162240C6AB00571118 /* Main.storyboard */,
 				2D5A41192240C6AC00571118 /* Assets.xcassets */,
 				2D5A411B2240C6AC00571118 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DBB914B2305393700D8B676 /* InterestCollectionViewCell.swift in Sources */,
 				2D9C8B4D2302AAAB006E2573 /* Interest.swift in Sources */,
 				2D5A41152240C6AB00571118 /* ViewController.swift in Sources */,
 				2D5A41132240C6AB00571118 /* AppDelegate.swift in Sources */,

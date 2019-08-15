@@ -9,8 +9,7 @@
 import Foundation
 import UIKit
 
-class Interest
-{
+class Interest {
     // MARK: - Public API
     var title = ""
     var description = ""
