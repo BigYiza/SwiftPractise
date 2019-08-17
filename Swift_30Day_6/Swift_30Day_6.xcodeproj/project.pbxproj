@@ -13,6 +13,7 @@
 		2D37AA8D23064E25008BBF79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D37AA8B23064E25008BBF79 /* Main.storyboard */; };
 		2D37AA8F23064E2A008BBF79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D37AA8E23064E2A008BBF79 /* Assets.xcassets */; };
 		2D37AA9223064E2A008BBF79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D37AA9023064E2A008BBF79 /* LaunchScreen.storyboard */; };
+		2D5F7D5B2307E46D00CAB260 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5F7D5A2307E46D00CAB260 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2D37AA8E23064E2A008BBF79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D37AA9123064E2A008BBF79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D37AA9323064E2A008BBF79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5F7D5A2307E46D00CAB260 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5F7D5B2307E46D00CAB260 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				2D37AA8423064E25008BBF79 /* Swift_30Day_6 */,
 				2D37AA8323064E25008BBF79 /* Products */,
+				2D5F7D592307E46D00CAB260 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				2D37AA9323064E2A008BBF79 /* Info.plist */,
 			);
 			path = Swift_30Day_6;
+			sourceTree = "<group>";
+		};
+		2D5F7D592307E46D00CAB260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D5F7D5A2307E46D00CAB260 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
